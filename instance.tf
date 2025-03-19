@@ -1,3 +1,7 @@
+variable "instance_type" {
+  type = string
+}
+
 resource "google_compute_instance" "terraform" {
   project      = "acostajulio-dev"
   name         = "terraform"
