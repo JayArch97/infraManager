@@ -1,6 +1,6 @@
 resource "google_compute_instance" "terraform" {
   project      = "acostajulio-dev"
-  name         = "terraform2"
+  name         = "terraform"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
