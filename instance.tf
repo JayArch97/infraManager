@@ -1,7 +1,7 @@
 resource "google_compute_instance" "terraform" {
   project      = "acostajulio-dev"
   name         = "terraform2"
-  machine_type = var.instance_type
+  machine_type = var.machine_type
   zone         = "us-central1-a"
 
   boot_disk {
